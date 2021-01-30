@@ -6,13 +6,6 @@
 /// https://github.com/evelinsl/EveBlinds
 /// 
 
-/// Place this script in the root prim, that also should be
-/// the prim that NEVER moves. So the inner most one...
-
-/// The offset of a single blind, calculated from the first
-/// slave blind relative to the root blind. You should edit this accordingly 
-/// to the amount and length of the blinds opened.
-
 float blindOffsetWhenOpened = 0.8;
 
 /// Do not edit anything beyond this point.

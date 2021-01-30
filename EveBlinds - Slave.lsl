@@ -6,10 +6,6 @@
 /// https://github.com/evelinsl/EveBlinds
 /// 
 
-/// You put this script into the non root blinds.
-
-/// Do not edit these variables, the script will manage them.
-
 vector movement = <0.0, 0.0, 0.0>;
 vector origin = <0.0, 0.0, 0.0>;
 integer blindState = 0;
