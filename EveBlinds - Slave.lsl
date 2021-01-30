@@ -34,10 +34,10 @@ setup(float offset)
 
 default
 {
-    state_entry()
-    {
+	state_entry()
+	{
 
-    }
+	}
     
     
 	link_message(integer sender_num, integer num, string msg, key id)
