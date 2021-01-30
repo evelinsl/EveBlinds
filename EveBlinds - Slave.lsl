@@ -10,8 +10,8 @@
 
 /// Do not edit these variables, the script will manage them.
 
-vector movement = <0.0, 0.0, 0>;
-vector origin = <0, 0, 0>;
+vector movement = <0.0, 0.0, 0.0>;
+vector origin = <0.0, 0.0, 0.0>;
 integer blindState = 0;
 
 
@@ -32,7 +32,7 @@ startAnimation()
 setup(float offset)
 {
 	origin = llGetLocalPos();
-	movement = <0.0, offset, 0>;
+	movement = <0.0, offset, 0.0>;
 }
 
 
